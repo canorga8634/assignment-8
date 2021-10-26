@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font: 1em;
+    margin: 20px
+}
+h3 {
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+h4 {
+font-size: .9em;
+}
+
+button {
+    width: 80px;
+    height: 30px;
+    background-color: #509BB5;
+    color: whitesmoke;
+    float: right;
+}
+
+#formContainer {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+}
+
+#employeeForm div {
+    margin-bottom: 10px;
+}
+input {
+    float: right;
+}
+
+label {
+    float: left;
+}
+
+th {
+    color: white;
+    background-color: #509BB5;
+    padding: 5px 90px 5px 5px;
+    border: solid 1px white;
+    font-size: .9em;
+}
+
+td {
+    background-color: lightblue;
+    padding: 5px 90px 5px 5px;
+    border: solid 1px white;
+    font-size: .9em;
+}
